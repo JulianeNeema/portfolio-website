@@ -6,140 +6,516 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Juliane Neema | Portfolio</title>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
     <link rel="stylesheet" href="css/style.css">
 </head>
+<body class="light">
+    <header class="header">
 
-<body>
+        <nav class="navbar">
 
-    <!-- Header -->
-    <header>
-        <nav>
-            <h2>Juliane</h2>
-
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <!-- Hero Section -->
-    <section id="home">
-        <h1>Hi, I'm Juliane Neema</h1>
-
-        <h2>Frontend & Python Developer</h2>
-
-        <p>
-            I build responsive websites and enjoy learning modern web development.
-        </p>
-        
-
-        <div class="socials">
-            <a href="https://wa.me/+256787304733"><i class="fab fa-whatsapp"></i></a>
-            <a href="https://www.linkedin.com/in/JulianeNeema"><i class="fab fa-linkedin"></i></a>
-            <a href="https://www.github.com/in/JulianeNeema"><i class="fab fa-github"></i></a>
-        </div>
-        <a href="#projects">
-            <button class="btn btn-outline">View Projects</button>
-        </a>
-        
-    </section>
-
-    <!-- About -->
-    <section id="about">
-        <h2>About Me</h2>
-
-        <p>
-            I am Juliane Neema, originally from the Democratic Republic of Congo and currently living in Uganda as a refugee. I did
-            not have the opportunity to attend or complete high school, but I developed a strong interest in technology from an
-            early age. My journey into programming began when someone introduced and taught me Python, which opened my path into
-            tech. I later gained further support and structure through mentorship and the Code Blossom program. I also worked in
-            tailoring and other survival activities to support myself before transitioning into technology. Today, I am focused on
-            learning web development and building systems that can solve practical problems in my community.
-            I'm currently learning HTML, CSS, JavaScript, Python, and Flask.
-            I enjoy creating websites that solve real-world problems.
-        </p>
-    </section>
-
-    <!-- Skills -->
-    <section id="skills">
-        <h2>Skills</h2>
-
-        <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>Python</li>
-            <li>Flask</li>
-            <li>Git & GitHub</li>
-            <li>Tailoring</li>
-        </ul>
-    </section>
-
-    <!-- Projects -->
-    <section id="projects">
-        <h2>Projects</h2>
-
-
-        <article>
-            <h3>Heart Project ❤️</h3>
-            <p>Lost, found & gift-sharing platform for communities.(Team-Work)</p>
-        </article>
-        <article>
-            <h3>Julia Services</h3>
-            <p>Future service platform connecting people to workers.</p>
-        </article>
-        
-        <article>
-            <h3>Web Portfolio</h3>
-            <p>Modern responsive developer portfolio system.</p>
-        </article>
-
-        <section class="section">
-            <h2>Heart Project Demo</h2>
-        
-            <div class="demo-box">
-                <h3>What it does</h3>
-                <p style="color:#94a3b8; line-height:1.7;">
-                    The Heart Project allows users to post lost items, found items, and donate items they no longer need.
-                    It connects communities through trust and sharing.
-                </p>
-        
-                <br>
-                <a href="https://tafazali.com" target="_blank">
-                    <button class="btn">Open Demo </button>
-                </a>
+            <div class="logo">
+                <span>&lt;/&gt;</span> Juliane
             </div>
-        </section>
+
+            <ul class="nav-links">
+
+                <li><a href="#home" class="active">Home</a></li>
+
+                <li><a href="#about">About</a></li>
+
+                <li><a href="#skills">Skills</a></li>
+
+                <li><a href="#projects">Projects</a></li>
+
+                <li><a href="#contact">Contact</a></li>
+
+            </ul>
+
+            <div class="menu-btn">
+
+                ☰
+
+            </div>
+
+            <button id="theme-toggle" class="theme-btn">
+
+                ☀️
+
+            </button>
+
+        </nav>
+
+    </header>
+    <section id="home" class="hero">
+
+        
+        <div class="hero-content">
+
+            <span class="hero-tag">FUTURE FRONTEND DEVELOPER</span>
+
+            <h1>
+                Hi, I'm
+                <span>Juliane</span>
+            </h1>
+
+            <h2 id="typing-text">
+                I'm learning to build responsive websites.
+            </h2>
+
+            <p>
+                I'm passionate about creating modern, responsive web applications
+                using HTML, CSS, JavaScript, Python and ......
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#projects" class="btn primary-btn">
+                    View My Work →
+                </a>
+
+                <a href="cv.pdf" class="btn secondary-btn">
+                    Download 
+                </a>
+
+            </div>
+
+            <div class="tech-icons">
+
+                <img src="image/html.png" alt="HTML">
+
+                <img src="image/css.png" alt="CSS">
+
+                <img src="image/js.png" alt="JavaScript">
+
+                <img src="image/python.png" alt="Python">
+
+                
+
+            </div>
+
+        </div>
+
+        
+        <div class="hero-image">
+
+            <div class="circle"></div>
+
+            <img src="image/july.jpg" alt="Juliane">
+
+            <div class="floating-card">
+
+                <h4>&lt;/&gt; future Developer</h4>
+
+                <p>HTML • CSS • JavaScript • Python</p>
+
+            </div>
+
+        </div>
+
     </section>
 
-    <!-- Contact -->
-    <section id="contact">
-        <h2>Contact Me</h2>
+    <section id="about" class="about hidden">
 
-        <form>
+      
+        <div class="about-content">
 
-            <input type="text" placeholder="Your Name">
+            <span class="section-tag">
+                ABOUT ME
+            </span>
 
-            <input type="email" placeholder="Your Email">
+            <h2>
+                I'm passionate about creating digital solutions.
+            </h2>
 
-            <textarea placeholder="Your Message"></textarea>
+            <p>
+                I'm a future Frontend developer and Python learner with a passion for
+                building responsive and user-friendly web applications.
+                I enjoy solving real-world problems through technology and
+                continuously improving my skills.
+            </p>
 
-            <button type="submit">Send Message</button>
+            <a href="#contact" class="btn primary-btn">
+                Learn More About Me →
+            </a>
 
-        </form>
+        </div>
+
+        
+        <div class="about-cards">
+
+            <div class="card">
+
+                <h3>2+</h3>
+
+                <p>Projects Built</p>
+
+            </div>
+
+            <div class="card">
+
+                <h3>5+</h3>
+
+                <p>Technologies Learned</p>
+
+            </div>
+
+            <div class="card">
+
+                <h3>100%</h3>
+
+                <p>Passion for Learning</p>
+
+            </div>
+
+            <div class="card">
+
+                <h3>∞</h3>
+
+                <p>Growth Mindset</p>
+
+            </div>
+
+        </div>
+
     </section>
 
-    <!-- Footer -->
-    <footer>
-        <p>&copy; 2026 Juliane Neema. All Rights Reserved.</p>
+    <section id="skills" class="skills hidden">
+
+        <div class="section-title">
+
+            <span>MY SKILLS</span>
+
+            <h2>Technologies I Work With</h2>
+
+            <p>
+                Here are some skills.
+            </p>
+
+        </div>
+
+        <div class="skills-container">
+
+            
+            <div class="skill-card hidden">
+
+                <img src="image/html.png" alt="HTML">
+
+                <h3>HTML</h3>
+
+                <div class="progress">
+
+                    <div class="progress-bar html">
+                        <span>95%</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+            
+            <div class="skill-card hidden">
+
+                <img src="image/css.png" alt="CSS">
+
+                <h3>CSS</h3>
+
+                <div class="progress">
+
+                    <div class="progress-bar css">
+                        <span>90%</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+            
+            <div class="skill-card hidden">
+
+                <img src="image/js.png" alt="JavaScript">
+
+                <h3>JavaScript</h3>
+
+                <div class="progress">
+
+                    <div class="progress-bar js">
+                        <span>70%</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+            
+            <div class="skill-card hidden">
+
+                <img src="image/python.png" alt="Python">
+
+                <h3>Python</h3>
+
+                <div class="progress">
+
+                    <div class="progress-bar python">
+                        <span>60%</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+            
+            <div class="skill-card hidden">
+
+                <img src="image/tailoring.jpeg" alt="tailoring">
+
+                <h3>Tailoring</h3>
+
+                <div class="progress">
+
+                    <div class="progress-bar tailoring">
+                        <span>95%</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+            
+            <div class="skill-card hidden">
+
+                <img src="image/git.png" alt="Git">
+
+                <h3>Git & GitHub</h3>
+
+                <div class="progress">
+
+                    <div class="progress-bar git">
+                        <span>80%</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="projects" class="projects hidden">
+
+        <div class="section-title">
+
+            <span>MY PROJECTS</span>
+
+            <h2>Featured Projects</h2>
+
+            <p>
+                Here are some projects I've built while learning web development.
+            </p>
+
+        </div>
+
+        <div class="projects-container">
+
+            
+            <div class="project-card hidden">
+
+                <img src="image/julian.png" alt="connect your works whith customas">
+                <div class="project-content">
+                    <h3>Julia Services</h3>
+                    <p>Future service platform connecting people to workers.</p>
+
+                </div>
+
+            </div>
+
+            
+            <div class="project-card hidden">
+
+                <img src="image/lost.png" alt="FindIt">
+
+                <div class="project-content">
+
+                    <h3>❤️Heartly</h3>
+
+                    <p>
+                        A Lost & Found websites that helps people report
+                        and recover lost items & Gift Sharing Platform where users can upload gifts,
+                        claim items, and securely manage gift requests.
+                    </p>
+
+                    <div class="project-tech">
+
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+
+                    </div>
+
+                    <div class="project-buttons">
+
+                        <a href="#" class="btn primary-btn">Live Demo</a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+           
+            <div class="project-card hidden">
+
+                <img src="image/mypotfolio1.png" alt="Portfolio">
+
+                <div class="project-content">
+
+                    <h3>Personal Portfolio</h3>
+
+                    <p>
+                        A responsive portfolio showcasing my projects,
+                        skills and development journey.
+                    </p>
+
+                    <div class="project-tech">
+
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+
+                    </div>
+
+                    <div class="project-buttons">
+
+                        <a href="#" class="btn primary-btn">Live Demo</a>
+
+                        <a href="#" class="btn secondary-btn">GitHub</a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="contact" class="contact hidden">
+
+        <div class="section-title">
+
+            <span>CONTACT</span>
+
+            <h2>Let's Work Together</h2>
+
+            <p>
+                 Feel free to contact me.
+            </p>
+
+        </div>
+
+        <div class="contact-container">
+
+            
+            <div class="contact-info">
+
+                <h3>Get In Touch</h3>
+
+                <p>
+                    I'm always open to learning opportunities, internships,
+                     and collaborations.
+                </p>
+
+                <div class="info">
+
+                    <p>📧neemajuliane032@gmail.com</p>
+
+                    <p>📍 Uganda</p>
+
+                    <p>💻 GitHub: github.com/julianeneema032-rgb</p>
+
+                </div>
+
+            </div>
+
+            
+            <form id="contact-form">
+
+                <input type="text" id="name" placeholder="Your Name">
+
+                <input type="email" id="email" placeholder="Your Email">
+
+                <textarea id="message" placeholder="Your Message"></textarea>
+
+                <button class="btn primary-btn">
+                    Send Message
+                </button>
+
+            </form>
+
+        </div>
+
+    </section>
+
+    <footer class="footer">
+
+        <div class="footer-content">
+
+            <div class="footer-logo">
+
+                <h2>Juliane.</h2>
+
+                <p>
+                    Building modern websites with passion.
+                </p>
+
+            </div>
+
+            <div class="footer-links">
+
+                <a href="#home">Home</a>
+
+                <a href="#about">About</a>
+
+                <a href="#skills">Skills</a>
+
+                <a href="#projects">Projects</a>
+
+                <a href="#contact">Contact</a>
+
+            </div>
+
+            <div class="footer-social">
+
+                <a href="#">GitHub</a>
+
+                <a href="#">LinkedIn</a>
+
+                <a href="#">Email</a>
+
+            </div>
+
+        </div>
+
+        <hr>
+
+        <p class="copyright">
+
+            © 💜💜2026 Juliane Neema. All Rights Reserved.
+
+        </p>
+
     </footer>
 
+    <button id="topBtn">
+        ↑
+    </button>
+
     <script src="js/script.js"></script>
-
 </body>
-
 </html>
