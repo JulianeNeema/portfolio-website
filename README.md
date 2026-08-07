@@ -1,3 +1,4 @@
+
 # 🌐 Juliane Neema - Portfolio Website
 
 A modern, responsive personal portfolio website built with **HTML, CSS, and JavaScript**. This project showcases my skills, projects, and journey as a web developer.
@@ -75,3 +76,7 @@ Email: neemajuliane032@gmail.com
 ## 📄 License
 
 This project is licensed under the MIT License.
+=======
+# portfolio-website
+This is my template portfolio website (html)
+
