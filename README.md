@@ -69,7 +69,7 @@ This project demonstrates several JavaScript concepts, including:
 
 **Juliane Neema**
 
-GitHub: https://github.com/neemajuliane032-rgb
+GitHub: https://github.com/JulianeNeema
 
 Email: neemajuliane032@gmail.com
 

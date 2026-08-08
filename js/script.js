@@ -17,6 +17,11 @@
     "Problem Solver"
     ];
 
+
+
+
+
+
     let index = 0;
 
     const typing = document.getElementById("typing-text");
@@ -34,6 +39,10 @@
             }
 
         }, 2000);
+
+
+
+
 
     const skillCards = document.querySelectorAll(".skill-card");
 
@@ -70,6 +79,9 @@
 
         });
 
+
+
+
     const form = document.getElementById("contact-form");
 
     form.addEventListener("submit", function (event) {
@@ -95,6 +107,11 @@
 
         });
 
+
+
+
+
+
     const hiddenElements = document.querySelectorAll(".hidden");
 
         const observer = new IntersectionObserver((entries) => {
@@ -119,6 +136,10 @@
 
         });
 
+
+
+
+
     const themeButton = document.getElementById("theme-toggle");
 
         themeButton.addEventListener("click", () => {
@@ -139,7 +160,7 @@
 
         });
 
-    // Load saved theme
+    
     if (localStorage.getItem("theme") === "dark") {
 
         document.body.classList.remove("light");
@@ -151,6 +172,9 @@
     themeButton.textContent = "☀️";
 
         }
+
+
+
 
     const topBtn = document.getElementById("topBtn");
 
